@@ -1,4 +1,6 @@
 import React from 'react';
+import { MdLocationOn } from 'react-icons/md';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 import './Header.scss';
 
@@ -6,10 +8,16 @@ const Header = () => {
   return (
     <div className="header">
       <h1 className="h-title">SHUBHAM SHINDE</h1>
-      <div className="h-details">
+      <div className="h-details-wrapper">
         <h2 className="h-detail-text">JAVASCRIPT DEVELOPER</h2>
-        <h2 className="h-detail-text">PUNE, INDIA</h2>
-        <h2 className="h-detail-text">+91 8983493798</h2>
+        <div className="h-detail">
+          <MdLocationOn className="h-detail-icon" />
+          <h2 className="h-detail-text">PUNE, INDIA</h2>
+        </div>
+        <div className="h-detail">
+          <FaPhoneAlt className="h-detail-icon" />
+          <h2 className="h-detail-text">+91 8983493798</h2>
+        </div>
       </div>
     </div>
   );
