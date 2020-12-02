@@ -1,0 +1,19 @@
+.App {
+  .print-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #121212;
+    border-radius: 6px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    color: #fff;
+    &:hover {
+      background-color: #212121;
+    }
+  }
+}
