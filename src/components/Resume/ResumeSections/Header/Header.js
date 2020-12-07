@@ -11,11 +11,11 @@ const Header = () => {
       <div className="h-details-wrapper">
         <h2 className="h-detail-text">JAVASCRIPT DEVELOPER</h2>
         <div className="h-detail">
-          <MdLocationOn className="h-detail-icon" />
+          <MdLocationOn size={18} className="h-detail-icon" />
           <h2 className="h-detail-text">PUNE, INDIA</h2>
         </div>
         <div className="h-detail">
-          <FaPhoneAlt className="h-detail-icon" />
+          <FaPhoneAlt size={16} className="h-detail-icon" />
           <h2 className="h-detail-text">+91 8983493798</h2>
         </div>
       </div>

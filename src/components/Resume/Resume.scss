@@ -5,3 +5,15 @@
   height: 100vh;
   padding: 24px;
 }
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  .resume-left {
+    width: 38%;
+  }
+  .resume-right {
+    width: 100%;
+  }
+}

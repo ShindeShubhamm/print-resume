@@ -1,49 +1,49 @@
 // Bebas Font
 @font-face {
-  font-family: 'Bebas';
-  src: url('./fonts/bebas/BebasNeue-Regular.ttf') format('truetype');
+  font-family: "Bebas";
+  src: url("./fonts/bebas/BebasNeue-Regular.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Bebas Light';
-  src: url('./fonts/bebas/BebasNeue-Light.ttf') format('truetype');
+  font-family: "Bebas Light";
+  src: url("./fonts/bebas/BebasNeue-Light.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Bebas Bold';
-  src: url('./fonts/bebas/BebasNeue-Bold.ttf') format('truetype');
+  font-family: "Bebas Bold";
+  src: url("./fonts/bebas/BebasNeue-Bold.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Bebas Book';
-  src: url('./fonts/bebas/BebasNeue-Book.ttf') format('truetype');
+  font-family: "Bebas Book";
+  src: url("./fonts/bebas/BebasNeue-Book.ttf") format("truetype");
   font-display: swap;
 }
 
 // Proxima Font
 @font-face {
-  font-family: 'Proxima';
-  src: url('./fonts/proxima/regular.woff2') format('woff2');
+  font-family: "Proxima";
+  src: url("./fonts/proxima/regular.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Proxima Italic';
-  src: url('./fonts/proxima/italic.woff2') format('woff2');
+  font-family: "Proxima Italic";
+  src: url("./fonts/proxima/italic.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Proxima SemiBold';
-  src: url('./fonts/proxima/semibold.woff2') format('woff2');
+  font-family: "Proxima SemiBold";
+  src: url("./fonts/proxima/semibold.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Proxima Bold';
-  src: url('./fonts/proxima/bold.woff2') format('woff2');
+  font-family: "Proxima Bold";
+  src: url("./fonts/proxima/bold.woff2") format("woff2");
   font-display: swap;
 }
 
 .App {
-  font-family: 'Proxima';
+  font-family: "Proxima";
   .print-button {
     font-family: Proxima;
     display: block;
@@ -59,6 +59,56 @@
     color: #fff;
     &:hover {
       background-color: #212121;
+    }
+  }
+}
+
+// Font Sizes
+$section-title: 18px;
+$section-data: 16px;
+
+// Common Styles
+.section {
+  margin: 10px 0;
+  .section-header {
+    display: flex;
+    align-items: flex-end;
+    .section-icon {
+      margin-right: 8px;
+    }
+    .section-title {
+      font-size: $section-title;
+      font-family: "Bebas Book";
+      letter-spacing: 2px;
+      margin: 0;
+    }
+  }
+
+  .section-content {
+    margin: 18px 0;
+    .section-data {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 18px;
+      .section-ui {
+        width: 14px;
+        .sui-circle {
+          // width: ;
+        }
+        .sui-line {
+        }
+      }
+      .section-text {
+        .sd-title {
+          font-size: 14.8px;
+          margin: 0;
+        }
+        .sd-date {
+          margin: 0;
+          font-size: 13px;
+          color: #666;
+        }
+      }
     }
   }
 }
