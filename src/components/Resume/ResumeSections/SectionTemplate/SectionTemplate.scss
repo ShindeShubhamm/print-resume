@@ -1,0 +1,78 @@
+.section {
+  margin: 10px 0;
+  .section-header {
+    display: flex;
+    align-items: flex-end;
+    .section-icon {
+      margin-right: 8px;
+    }
+    .section-title {
+      font-size: 18px;
+      font-family: "Bebas Book";
+      letter-spacing: 2px;
+      margin: 0;
+    }
+  }
+
+  .section-content {
+    margin: 14px 0 36px;
+    .section-data {
+      display: flex;
+      .section-ui {
+        width: 30px;
+        position: relative;
+        .sui-circle {
+          width: 4px;
+          height: 4px;
+          border: 2px solid #000;
+          border-radius: 50%;
+          margin: 4px 6px;
+        }
+        .sui-line {
+          border-left: 2px solid #000;
+          width: 2px;
+          height: calc(100% - 6px);
+          left: 9px;
+          bottom: -4px;
+          position: absolute;
+        }
+      }
+      .section-text {
+        font-family: "Proxima";
+        padding-bottom: 18px;
+        max-width: 600px;
+      }
+      &:last-child {
+        .sui-line {
+          bottom: 2px;
+          height: calc(100% - 14px);
+        }
+        .section-text {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+// Section components
+.sd-title {
+  font-size: 14.8px;
+  margin: 0;
+}
+.sd-date {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+.sd-text {
+  margin: 0;
+  color: #333;
+  font-size: 15px;
+}
+.sd-list {
+  margin: 8px 0 0;
+  .sd-listitem {
+    padding: 4px 0 0;
+  }
+}

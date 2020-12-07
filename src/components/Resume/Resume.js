@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './ResumeSections/Header/Header';
-import Education from './ResumeSections/Education/Education';
+import SectionTemplate from './ResumeSections/SectionTemplate/SectionTemplate';
+import { profileData, employmentData, educationData, extraData, traitsData } from "../../data"
 
 import './Resume.scss';
 
@@ -11,7 +12,11 @@ const Resume = (props) => {
       <div className="resume-container">
         <div className="resume-left"></div>
         <div className="resume-right">
-          <Education />
+          <SectionTemplate data={profileData()} />
+          <SectionTemplate data={employmentData()} />
+          <SectionTemplate data={educationData()} />
+          <SectionTemplate data={extraData()} />
+          <SectionTemplate data={traitsData()} />
         </div>
       </div>
     </div>
