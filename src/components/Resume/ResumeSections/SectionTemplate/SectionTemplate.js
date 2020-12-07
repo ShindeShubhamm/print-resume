@@ -12,7 +12,6 @@ const SectionTemplate = (props) => {
         <h2 className="section-title">{data.title}</h2>
       </div>
       <div className="section-content">
-        {/* Data 1 */}
         {data.values.map((v, index) => (
           <div className="section-data" key={index}>
             <div className="section-ui">
