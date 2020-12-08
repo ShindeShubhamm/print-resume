@@ -8,7 +8,7 @@ export const extraData = () => {
       {
         title: "Robotics Research Lab, Pune",
         date: "August 2018 - August 2020",
-        listData: ["Member of 1st ranked team in Maharashtra in National Level Robotics Competition, Robocon.", "Involved in management and technical assistant of the team."]
+        listData: ["Member of 1st ranked team in Maharashtra in National Level Robotics Competition, Robocon.", "Involved in management and technical assistance of the team."]
       }
     ]
   }
