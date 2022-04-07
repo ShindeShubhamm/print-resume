@@ -1,46 +1,46 @@
 .resume-main {
-  max-width: 960px;
-  margin: 10px auto;
-  // border: 1px solid #dadada;
-  // height: 100vh;
-  padding: 24px;
+    max-width: 960px;
+    margin: 10px auto;
+    // border: 1px solid #dadada;
+    // height: 100vh;
+    padding: 24px;
 }
 
 .resume-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-  .resume-left {
-    width: 38%;
-  }
-  .resume-right {
-    width: 100%;
-  }
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    .resume-left {
+        width: 38%;
+    }
+    .resume-right {
+        width: 100%;
+    }
 }
 
 .dec-title {
-  display: flex;
-  margin: 12px 0;
-  justify-content: center;
-  align-items: center;
-  .dec-icon {
-    width: 4px;
-    height: 4px;
-    border: 2px solid #000;
-    border-radius: 50%;
-    margin: 0 20px 4px;
-  }
-  .dec-text {
-    margin: 0;
-    font-family: "Bebas Book";
-    font-size: 18px;
-    letter-spacing: 2px;
-  }
+    display: flex;
+    margin: 12px 0;
+    justify-content: center;
+    align-items: center;
+    .dec-icon {
+        width: 4px;
+        height: 4px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        margin: 0 20px 4px;
+    }
+    .dec-text {
+        margin: 0;
+        font-family: 'Bebas Book';
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
 }
 
 .d-text {
-  font-family: "Proxima";
-  margin: 0;
-  text-align: center;
-  font-size: 16px;
+    font-family: 'Inter';
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
 }

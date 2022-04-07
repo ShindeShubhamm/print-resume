@@ -1,15 +1,15 @@
 .details-wrapper {
-  margin-bottom: 52px;
-  .d-data-wrapper {
-    .d-title {
-      font-size: 14px;
-      margin: 18px 0 0;
-      color: #777;
-      text-align: center;
-      font-family: "Proxima";
+    margin-bottom: 52px;
+    .d-data-wrapper {
+        .d-title {
+            font-size: 14px;
+            margin: 18px 0 0;
+            color: #777;
+            text-align: center;
+            font-family: 'Inter';
+        }
+        .details-data {
+            margin-bottom: 15px;
+        }
     }
-    .details-data {
-      margin-bottom: 15px;
-    }
-  }
 }

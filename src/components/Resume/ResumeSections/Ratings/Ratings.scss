@@ -1,23 +1,23 @@
 .ratings-wrapper {
-  margin-bottom: 52px;
+    margin-bottom: 52px;
 }
 
 .meter-wrapper {
-  margin-bottom: 5px;
-  .meter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .m-icon {
-      margin: 0 1px;
-      width: 24px;
-      height: 3px;
+    margin-bottom: 5px;
+    .meter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .m-icon {
+            margin: 0 2px;
+            width: 24px;
+            height: 3px;
+        }
+        .m-filled {
+            background-color: #000;
+        }
+        .m-empty {
+            background-color: #ccc;
+        }
     }
-    .m-filled {
-      background-color: #000;
-    }
-    .m-empty {
-      background-color: #ccc;
-    }
-  }
 }

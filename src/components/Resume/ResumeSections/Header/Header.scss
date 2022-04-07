@@ -1,28 +1,28 @@
 .header {
-  .h-title {
-    font-family: 'Bebas';
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 5.2px;
-    margin: 0;
-    padding: 18px 0 8px;
-  }
-  .h-details-wrapper {
-    display: flex;
-    margin: 0 auto;
-    max-width: 436px;
-    justify-content: space-between;
-    align-items: center;
-    .h-detail {
-      display: flex;
-      align-items: center;
+    .h-title {
+        font-family: 'Bebas';
+        font-size: 36px;
+        text-align: center;
+        letter-spacing: 5.2px;
+        margin: 0;
+        padding: 18px 0 8px;
     }
-    .h-detail-icon {
-      margin-right: 6px;
+    .h-details-wrapper {
+        display: flex;
+        margin: 0 auto;
+        max-width: 436px;
+        justify-content: space-between;
+        align-items: center;
+        .h-detail {
+            display: flex;
+            align-items: center;
+        }
+        .h-detail-icon {
+            margin-right: 6px;
+        }
+        .h-detail-text {
+            font-size: 14px;
+            font-family: 'Inter';
+        }
     }
-    .h-detail-text {
-      font-size: 14px;
-      font-family: 'Proxima';
-    }
-  }
 }
